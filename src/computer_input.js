@@ -4,7 +4,6 @@ export default function ComputerInput() {
     const DIGIT = 3;
 
     let numbers = [];
-    let number = '';
 
     function notSame (n) {
         return numbers.every((e) => n !== e);
@@ -19,9 +18,7 @@ export default function ComputerInput() {
         }
     }
 
-    number = [numbers.join('')];
-
-    return number;
+    return numbers;
 }
 
 function randomNum(MAX_NUM, MIN_NUM) {
