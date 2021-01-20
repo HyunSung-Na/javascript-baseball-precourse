@@ -22,6 +22,6 @@ export default function ComputerInput() {
 }
 
 function randomNum(MAX_NUM, MIN_NUM) {
-    return Math.floor(Math.random()*(MAX_NUM-MIN_NUM+1)) + MIN_NUM;
+    return Math.floor(Math.random() * (MAX_NUM-MIN_NUM + 1)) + MIN_NUM;
 }
 
